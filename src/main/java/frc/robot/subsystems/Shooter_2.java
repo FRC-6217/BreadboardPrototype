@@ -11,7 +11,8 @@ import com.revrobotics.CANSparkMaxLowLevel.MotorType;
 
 public class Shooter_2 extends SubsystemBase {
   /** Creates a new Shooter_2. */
-  CANSparkMax motor = new CANSparkMax(29, MotorType.kBrushless);
+  CANSparkMax motor = new CANSparkMax(29, MotorType.kBrushed);
+  
    double speed = 0;
    boolean s = true;
   public Shooter_2() {}
